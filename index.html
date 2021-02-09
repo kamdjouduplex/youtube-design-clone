@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Youtube Clone App</title>
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            <span class="material-icons icon-menu">menu</span>
+            <a href="#">
+                <img src="./images/youtubelogo.svg" alt="" class="logo">
+            </a>
+            <form action="">
+                <input type="search" name="search" id=" search" placeholder="Search" aria-label="search">
+                <button class="search-btn" type="submit">
+                    <span class="material-icons">search</span>
+                </button>
+            </form>
+            <div class="icons-menu-haut">
+                <a href="" class="icon">
+                    <span class="material-icons">videocam</span>
+                </a>
+                <a href="" class="icon">
+                    <span class="material-icons">apps</span>
+                </a>
+                <a href="" class="icon">
+                    <span class="material-icons">notifications</span>
+                </a>
+                <a href="" >
+                    <img class="icon-de-chaine" src="http://unsplash.it/36/36?gravity=center" alt="icon de la chaine">
+                </a>
+            </div>
+        </header>
+        <div class="section-principal">
+            <div class="menu-gauche">
+                <ul>
+                    <li class="list active">
+                        <a href="">
+                            <span class="material-icons">home</span>
+                            <span class="list-text">Home</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="">
+                            <span class="material-icons">trending_up</span>
+                            <span class="list-text">Trending</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="">
+                            <span class="material-icons">subscriptions</span>
+                            <span class="list-text">Subscriptions</span>
+                        </a>
+                    </li>
+                </ul>
+                <hr>
+                <ul>
+                    <li class="list">
+                        <a href="">
+                            <span class="material-icons">video_library</span>
+                            <span class="list-text">Library</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="">
+                            <span class="material-icons">history</span>
+                            <span class="list-text">History</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="">
+                            <span class="material-icons">slideshow</span>
+                            <span class="list-text">Your videos</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="">
+                            <span class="material-icons">watch_later</span>
+                            <span class="list-text">Watch later</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="">
+                            <span class="material-icons">thumb_up_alt</span>
+                            <span class="list-text">Liked videos</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="">
+                            <span class="material-icons">expand_more</span>
+                            <span class="list-text">Show more</span>
+                        </a>
+                    </li>
+                </ul>
+                <hr>
+                <ul>
+                    <h2>Subscriptions</h2>
+                    <li class="list">
+                        <a href="">
+                            <span class="material-icons">face</span>
+                            <span class="list-text">Bproo Dev</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="">
+                            <span class="material-icons">face</span>
+                            <span class="list-text">Code with Joel</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="">
+                            <span class="material-icons">face</span>
+                            <span class="list-text">tonypro</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu-droite">
+                <section class="videos">
+                    <article class="video" data-duration="21:40">
+                        <a href="">
+                            <img src="http://unsplash.it/253/142?gravity=center" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="http://unsplash.it/36/36?gravity=center" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="" >Creating entire website using Bootstrap</a>
+                                <a class="nom-de-chaine" href="" >Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="21:40">
+                        <a href="">
+                            <img src="http://unsplash.it/253/142?gravity=center" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="http://unsplash.it/36/36?gravity=center" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="" >Creating entire website using Bootstrap</a>
+                                <a class="nom-de-chaine" href="" >Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="21:40">
+                        <a href="">
+                            <img src="http://unsplash.it/253/142?gravity=center" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="http://unsplash.it/36/36?gravity=center" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="" >Creating entire website using Bootstrap</a>
+                                <a class="nom-de-chaine" href="" >Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="21:40">
+                        <a href="">
+                            <img src="http://unsplash.it/253/142?gravity=center" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="http://unsplash.it/36/36?gravity=center" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="" >Creating entire website using Bootstrap</a>
+                                <a class="nom-de-chaine" href="" >Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="21:40">
+                        <a href="">
+                            <img src="http://unsplash.it/253/142?gravity=center" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="http://unsplash.it/36/36?gravity=center" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="" >Creating entire website using Bootstrap</a>
+                                <a class="nom-de-chaine" href="" >Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="21:40">
+                        <a href="">
+                            <img src="http://unsplash.it/253/142?gravity=center" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="http://unsplash.it/36/36?gravity=center" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="" >Creating entire website using Bootstrap</a>
+                                <a class="nom-de-chaine" href="" >Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="21:40">
+                        <a href="">
+                            <img src="http://unsplash.it/253/142?gravity=center" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="http://unsplash.it/36/36?gravity=center" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="" >Creating entire website using Bootstrap</a>
+                                <a class="nom-de-chaine" href="" >Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="21:40">
+                        <a href="">
+                            <img src="http://unsplash.it/253/142?gravity=center" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="http://unsplash.it/36/36?gravity=center" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="" >Creating entire website using Bootstrap</a>
+                                <a class="nom-de-chaine" href="" >Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="21:40">
+                        <a href="">
+                            <img src="http://unsplash.it/253/142?gravity=center" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="http://unsplash.it/36/36?gravity=center" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="" >Creating entire website using Bootstrap</a>
+                                <a class="nom-de-chaine" href="" >Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="21:40">
+                        <a href="">
+                            <img src="http://unsplash.it/253/142?gravity=center" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="http://unsplash.it/36/36?gravity=center" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="" >Creating entire website using Bootstrap</a>
+                                <a class="nom-de-chaine" href="" >Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="21:40">
+                        <a href="">
+                            <img src="http://unsplash.it/253/142?gravity=center" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="http://unsplash.it/36/36?gravity=center" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="" >Creating entire website using Bootstrap</a>
+                                <a class="nom-de-chaine" href="" >Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="21:40">
+                        <a href="">
+                            <img src="http://unsplash.it/253/142?gravity=center" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="http://unsplash.it/36/36?gravity=center" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="" >Creating entire website using Bootstrap</a>
+                                <a class="nom-de-chaine" href="" >Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="21:40">
+                        <a href="">
+                            <img src="http://unsplash.it/253/142?gravity=center" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="http://unsplash.it/36/36?gravity=center" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="" >Creating entire website using Bootstrap</a>
+                                <a class="nom-de-chaine" href="" >Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="21:40">
+                        <a href="">
+                            <img src="http://unsplash.it/253/142?gravity=center" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="http://unsplash.it/36/36?gravity=center" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="" >Creating entire website using Bootstrap</a>
+                                <a class="nom-de-chaine" href="" >Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="21:40">
+                        <a href="">
+                            <img src="http://unsplash.it/253/142?gravity=center" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="http://unsplash.it/36/36?gravity=center" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="" >Creating entire website using Bootstrap</a>
+                                <a class="nom-de-chaine" href="" >Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="21:40">
+                        <a href="">
+                            <img src="http://unsplash.it/253/142?gravity=center" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="http://unsplash.it/36/36?gravity=center" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="" >Creating entire website using Bootstrap</a>
+                                <a class="nom-de-chaine" href="" >Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="21:40">
+                        <a href="">
+                            <img src="http://unsplash.it/253/142?gravity=center" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="http://unsplash.it/36/36?gravity=center" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="" >Creating entire website using Bootstrap</a>
+                                <a class="nom-de-chaine" href="" >Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="video" data-duration="21:40">
+                        <a href="">
+                            <img src="http://unsplash.it/253/142?gravity=center" alt="" class="couverture-video">
+                        </a>
+                        <div class="section-bas-video">
+                            <a href="">
+                                <img src="http://unsplash.it/36/36?gravity=center" alt="" class="icon-de-chaine">
+                            </a>
+                            <div class="detail-video">
+                                <a class="titre-de-video" href="" >Creating entire website using Bootstrap</a>
+                                <a class="nom-de-chaine" href="" >Nom de la chaine</a>
+                                <div class="meta-donnees">
+                                    <span class="likes">147k views</span>
+                                    •
+                                    <span class="creation">3 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

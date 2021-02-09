@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*, *::after, *::before{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    font-family: -apple-system, Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+.logo{
+    height: 20px;
+    margin-left: 0.5rem;
+}
+
+form{
+    display: flex;
+    flex-grow: 1;
+    margin: 0 4rem 0 10rem;
+}
+
+input[type="search"]{
+    width: 100%;
+    height: 2rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+    border: solid 1px #ccc;
+    border-radius: 0.5rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+}
+
+.search-btn{
+    height: 2rem;
+    padding: 0.3rem;
+    border: solid 1px #ccc;
+    border-radius: 0.5rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.icons-menu-haut{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 1rem;
+    align-items: center;
+}
+.icons-menu-haut a{
+    color: rgba(14, 14, 14, 0.822);
+}
+
+.icon-de-chaine{
+    border-radius: 50%;
+    background: #aaa;
+}
+.icon-menu{
+    font-size: 2rem;
+}
+
+/* section principale style */
+.section-principal{
+    display: flex;
+}
+
+.menu-gauche{
+    flex: 1;
+    max-width: 18%;
+    margin-top: 1.2rem;
+}
+.menu-droite{
+    flex: 1;
+    background: #f9f9f9;
+    padding: 1rem;
+}
+
+.menu-gauche ul{
+    list-style: none;
+    padding: 0;
+}
+
+.list{
+    padding: 0.8rem 1.5rem;
+}
+li a{
+    text-decoration: none;
+    color: #535353;
+}
+.list-text{
+    margin-left: 1.2rem;
+}
+li a{
+    display: flex;
+    align-items: center;
+}
+.list:hover, li.active{
+    background: #ccc;
+}
+
+ul h2{
+    padding: 0.5rem 1.5rem;
+    color: rgb(163, 163, 163);
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.videos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(253px, 1fr));
+    gap: 2rem 1rem;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.video::before{
+    content: attr(data-duration);
+    position: absolute;
+    background: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    bottom: 40%;
+    right: 0.7rem;
+}
+.couverture-video{
+    width: 100%;
+    height: 100%;
+    min-width: 253px;
+    min-height: 142px;
+    background: #aaa;
+}
+.section-bas-video{
+    display: flex;
+    margin-top: 0.6rem;
+}
+
+.detail-video{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.titre-de-video{
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.nom-de-chaine, .meta-donnees{
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+    font-size: 0.9rem;
+    font-weight: 300;
+}
